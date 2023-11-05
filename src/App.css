@@ -1,0 +1,174 @@
+footer {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f8f9fa;
+}
+
+.App-header {
+  position: relative;
+}
+
+.bubble {
+  height: 250px;
+  width: 60%;
+  min-width: 200px;
+  background: #f8f9fa;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+@media screen and (max-width: 1205px) {
+  .bubble {
+    height: 250px;
+    width: 60%;
+    min-width: 200px;
+    background: #f8f9fa;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid black;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bubble {
+    height: 250px;
+    width: 60%;
+    min-width: 200px;
+    background: #f8f9fa;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid black;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bubble {
+    height: 250px;
+    width: 60%;
+    min-width: 200px;
+    background: #f8f9fa;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid black;
+  }
+}
+
+.bubble2 {
+  height: 250px;
+  width: 60%;
+  min-width: 200px;
+  background: #f8f9fa;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 992px) {
+  .bubble2 {
+    height: 250px;
+    width: 60%;
+    min-width: 200px;
+    background: #f8f9fa;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bubble2 {
+    height: 250px;
+    width: 60%;
+    min-width: 200px;
+    background: #f8f9fa;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid black;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bubble2 {
+    height: 250px;
+    width: 60%;
+    min-width: 200px;
+    background: #f8f9fa;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+  }
+}
+
+p {
+  margin: 10px;
+}
+.pointer {
+  height: 40px;
+  width: 40px;
+  background: #f8f9fa;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  border-radius: 0 0 12px 0;
+  margin-top: -22px;
+  position: relative;
+  left: calc(0.5vw - 50px);
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+}
+
+body {
+  background-image: url(./assets/5480324_2850038.svg);
+  background-size: cover;
+}
+
+#navbar {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#current-weather-card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+}
+
+.icone {
+  width: 30px;
+}
+/* .blurred {
+  background: gray;
+  filter: blur(20px);
+  position: relative;
+  top: -315px;
+  /* 	transform: scale(1.05); */
+/* z-index: -1;
+} */
